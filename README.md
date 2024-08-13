@@ -2,15 +2,6 @@
 
 This is a simple Tic-Tac-Toe game implemented in C. The game is played on a 3x3 grid, where the player competes against the computer. The player uses the 'X' symbol, while the computer uses the 'O' symbol. The objective is to get three of your symbols in a row, column, or diagonal before your opponent does.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [How to Play](#how-to-play)
-- [Code Structure](#code-structure)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-
 ## Installation
 
 1. Clone the repository:
@@ -46,13 +37,13 @@ The game will prompt you to enter your moves and will display the game board aft
 
 #### Key Functions
 
-- resetBoard(): Resets the game board to its initial empty state.
-- printBoard(): Displays the current state of the board.
-- checkFreeSpaces(): Checks how many free spaces are left on the board.
-- playerMove(): Handles the player's move input and updates the board.
-- computerMove(): Generates a random move for the computer.
-- checkWinner(): Checks if there is a winner or if the game is a tie.
-- printWinner(): Prints the result of the game (win, lose, or tie).
+- `resetBoard()`: Resets the game board to its initial empty state.
+- `printBoard()`: Displays the current state of the board.
+- `checkFreeSpaces()`: Checks how many free spaces are left on the board.
+- `playerMove()`: Handles the player's move input and updates the board.
+- `computerMove()`: Generates a random move for the computer.
+- `checkWinner()`: Checks if there is a winner or if the game is a tie.
+- `printWinner()`: Prints the result of the game (win, lose, or tie).
 
 ## Future Improvements
 
