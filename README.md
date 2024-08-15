@@ -33,7 +33,7 @@ The game will prompt you to enter your moves and will display the game board aft
 
 ## Code Structure
 
-- main.c: This is the main file containing the implementation of the game.
+- `main.c`: This is the main file containing the implementation of the game.
 
 #### Key Functions
 
