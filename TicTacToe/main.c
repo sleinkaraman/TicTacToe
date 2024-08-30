@@ -177,7 +177,7 @@ int main(int argc, const char * argv[])
           return board[0][2];
        }
 
-      
+       return ' ';
     }
     void printWinner(char winner)
     {
